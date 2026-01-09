@@ -2,8 +2,7 @@ import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
 
-function App() {
-
+function App(){
 
   return (
     <div id='app'>
@@ -12,6 +11,8 @@ function App() {
       <Footer />
     </div>
   )
+
 }
 
-export default Header
+export default App
+
