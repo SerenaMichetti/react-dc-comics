@@ -1,11 +1,42 @@
-*{
-  margin:0;
-  padding:0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
+body {
   font-family: sans-serif;
   min-height: 100vh;
-  
+
 }
+/****************header css*************************/
+header {
+  display: flex;
+  align-items: center;
+
+}
+
+header #logo {
+  height: 4rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin-left: 45rem;
+
+}
+
+header nav a{
+  text-decoration: none;
+  color:black;
+}
+
+header nav a:hover{
+  color: blue;
+}
+/****************main css*************************/
+/****************footer css*************************/
