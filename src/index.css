@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
 
 }
+
 /****************header css*************************/
 header {
   display: flex;
@@ -30,16 +31,17 @@ header nav ul {
 
 }
 
-header nav a{
+header nav a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
-header nav a:hover{
+header nav a:hover {
   color: blue;
 }
+
 /****************main css*************************/
-main{
+main {
   background-color: black;
   color: white;
   min-height: 5em;
@@ -53,23 +55,65 @@ main{
 
 
 /****************footer css*************************/
-#merchandise{
- height: 30em;
 
-}
-
-#merchandise ul{
+#merchandise {
   display: flex;
   list-style: none;
   background-color: dodgerblue;
   color: white;
   justify-content: space-around;
+  height: 8em;
+  background-color: dodgerblue;
+  color: white;
 }
-#merchandise img{
+
+#merchandise img {
   height: 4em;
 }
-#merchandise li{
+
+#merchandise li {
   display: flex;
   align-items: center;
   font-size: small;
+}
+
+#info {
+  background-image: url("/public/footer-bg.jpg");
+  height: 20em;
+  background-size: cover;
+  display: flex;
+}
+
+#social {
+  background-color: rgb(58, 57, 57);
+  height: 5em;
+}
+
+.column {
+  color: white;
+  flex: 1;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 1em 0;
+  
+}
+
+.left ul{
+  list-style: none;
+
+}
+#bg-dc-logo{
+    background-image: url("/public/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.left h3{
+  padding: 1em 0;
+}
+.left li{
+  color: grey;
 }
