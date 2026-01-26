@@ -2,7 +2,9 @@ function Main() {
 
     return (
         <main>
-            Contenuto principale
+            <div>
+            -- Content goes here --
+            </div>
         </main>
 
     );

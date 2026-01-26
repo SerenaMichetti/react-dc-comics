@@ -39,4 +39,17 @@ header nav a:hover{
   color: blue;
 }
 /****************main css*************************/
+main{
+  background-color: black;
+  color: white;
+  min-height: 5em;
+  display: flex;
+  align-items: center;
+  padding-left: 5em;
+  margin-top: 0.5em;
+}
+
+
+
+
 /****************footer css*************************/
