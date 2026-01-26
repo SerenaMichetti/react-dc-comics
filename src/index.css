@@ -53,3 +53,23 @@ main{
 
 
 /****************footer css*************************/
+#merchandise{
+ height: 30em;
+
+}
+
+#merchandise ul{
+  display: flex;
+  list-style: none;
+  background-color: dodgerblue;
+  color: white;
+  justify-content: space-around;
+}
+#merchandise img{
+  height: 4em;
+}
+#merchandise li{
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
