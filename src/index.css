@@ -2,12 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 body {
   font-family: sans-serif;
-  min-height: 100vh;
+  height: 100%;
 
+}
+
+html, body, #root, #app{
+  height: 100%;
 }
 
 /****************header css*************************/
@@ -44,7 +49,7 @@ header nav a:hover {
 main {
   background-color: black;
   color: white;
-  min-height: 5em;
+  min-height: 20%;
   display: flex;
   align-items: center;
   padding-left: 5em;
@@ -87,8 +92,31 @@ main {
 #social {
   background-color: rgb(58, 57, 57);
   height: 5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+#social button{
+  border-color: dodgerblue;
+  height: 3em;
+  padding: 0 1em;
+  background-color:rgb(58, 57, 57) ;
+  color: white
+}
+#account{
+  display: flex;
+  align-items: center;
+  justify-content:space-around ;
+}
+#account h4{
+  color: dodgerblue;
+  padding: 1em;
+}
+
+#account img{
+padding: .5em;
+}
 .column {
   color: white;
   flex: 1;

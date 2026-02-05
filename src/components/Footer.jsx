@@ -54,7 +54,15 @@ function Footer() {
                 </div>
             </div>
             <div id="social">
-                terza sezione
+               <button>SIGN-UP NOW!</button>
+               <div id="account">
+                <h4>FOLLOW US </h4>
+                <img src="footer-facebook.png"></img>
+                <img src="footer-twitter.png"></img>
+                <img src="footer-youtube.png"></img>
+                <img src="footer-pinterest.png"></img>
+                <img src="footer-periscope.png"></img>
+               </div>
             </div>
         </footer>
 
