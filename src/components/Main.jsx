@@ -1,3 +1,4 @@
+import ComicsCard from './ComicsCard';
 import comics from './comics.js'
 
 function Main() {
@@ -8,18 +9,15 @@ function Main() {
             <div className="product-list">
                 <div className="container">
                     <div className="current-series-btn">CURRENT SERIES</div>
-                    <div className="cards-container">
+                   <div className="cards-container">
                         {comics.map((comic) => (
-                            /* Singola Card */
-                            <div className="card" key={comic.id}>
-                                <div className="img-container">
-                                    <img src={comic.thumb} alt={comic.series} />
-                                </div>
-                                <h4>{comic.series}</h4>
-                            </div>
+                            <ComicsCard 
+                                key={comic.id} 
+                                thumb={comic.thumb} 
+                                series={comic.series} 
+                            />
                         ))}
                     </div>
-
                     <button className="load-more">LOAD MORE</button>
                 </div>
             </div>
