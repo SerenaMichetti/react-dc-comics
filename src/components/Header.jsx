@@ -1,8 +1,8 @@
-function Header(){
-    
+function Header() {
+
     return (
         <header>
-            <img id="logo" src= "/dc-logo.png" alt= "LOGO DC COMICS"/>
+            <img id="logo" src="/dc-logo.png" alt="LOGO DC COMICS" />
             <nav>
                 <ul>
                     <li><a href="#">CHARACTERS</a></li>
@@ -17,6 +17,7 @@ function Header(){
                     <li><a href="#">SHOP</a></li>
                 </ul>
             </nav>
+           
         </header>
     )
 }
