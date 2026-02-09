@@ -160,7 +160,7 @@ main {
 }
 
 #info {
-  background-image: url("/public/footer-bg.jpg");
+  background-image: url("/footer-bg.jpg");
   height: 20em;
   background-size: cover;
   display: flex;
@@ -217,7 +217,7 @@ main {
 }
 
 #bg-dc-logo {
-  background-image: url("/public/dc-logo-bg.png");
+  background-image: url("/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: center;
 }
